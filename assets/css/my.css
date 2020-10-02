@@ -51,6 +51,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: none;
+  color: #7d4829;
 }
 
 .checkbtn {
@@ -333,7 +334,7 @@ nav ul li a:hover {
 
 .contentWrap {
   /* border: 1px solid red; */
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
 }
@@ -342,7 +343,7 @@ nav ul li a:hover {
   width: max-content;
   background-color: #6d9f32;
   position: relative;
-  left: 30%;
+  left: 28%;
   border-radius: 100%;
   padding: 18px;
   z-index: 1;
@@ -356,7 +357,7 @@ nav ul li a:hover {
 
 .descriptionContent {
   text-align: center;
-  margin-top: 2%;
+  margin-top: 5%;
   font-size: 20px;
   line-height: 20px;
 }
@@ -384,9 +385,6 @@ nav ul li a:hover {
   .imageContent img {
     width: 46px;
     height: 48px;
-  }
-  .imageContent {
-    left: 35%;
   }
   .contentWrap {
     width: 200px;
@@ -641,3 +639,18 @@ nav ul li a:hover {
   }
 }
 /* END FOOTER */
+
+/* floating wa */
+.floatingWa {
+  position: fixed;
+  bottom: 4px;
+  right: 12px;
+}
+
+@media (max-width: 700px) {
+  .floatingWa img {
+    width: 70px;
+    height: 70px;
+  }
+}
+/* endfloating wa */
